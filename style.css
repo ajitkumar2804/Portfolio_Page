@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+:root {
+    --primary-color: #EFF6FF;
+    --second-color: #BFDBFE;
+    --third-color: #2563EB;
+}
+
+body {
+    font-family: 'PT Sans', sans-serif;
+    margin: 0px;
+
+}
+
+
+.container {
+    padding:1rem;
+    background-color: var(--second-color);
+}
+
+
+.container-centre {
+
+    max-width: 600px;
+    margin: auto;
+    
+}
+.container h1{
+   text-align: center;
+}
+.link {
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    margin: auto;
+
+
+}
+
+.primary-link {
+    color: var(--primary-color);
+    background-color: var(--third-color);
+    border-radius: 0.6rem;
+    
+
+}
+
+.secondary-link {
+    color: var(--third-color);
+    background-color: var(--second-color);
+    border-radius: 0.6rem;
+
+}
+
+.list-non-bullet {
+    list-style: none;
+
+}
+
+.list-item-inline {
+    display: inline;
+    padding: 0rem 0.5rem;
+
+}
+
+.navigation {
+
+    background-color: var(--primary-color);
+    padding: 1rem;;
+
+}
+
+.nav-list {
+    color: var(--third-color);
+    text-decoration: none;
+    padding-right: 1rem;
+}
+
+.navigation .nav-pills {
+    text-align: right;
+}
+
+.head {
+    text-align: center;
+    background-color: var(--primary-color);
+ 
+}
+
+.head-img {
+    padding-top: 0.5rem;
+    max-width: 350px;
+    margin: auto;
+    display: block;
+}
+
+.head .head-header {
+    color: var(--third-color);
+    text-align: center;
+    padding: 1rem;
+    margin: 0px;
+
+}
+
+.section {
+    padding: 1rem;
+    text-align: center;
+    background-color: var(--second-color);
+}
+
+
+
+.ow {
+    background-color: var(--third-color);
+    padding: 2rem;
+
+}
+
+.footer {
+    background-color: var(--primary-color);
+    padding: 2rem 1rem;
+    text-align: center;
+    color: var(--third-color);
+}
+
+.footer .link {
+    color: var(--primary-color);
+}
+
+.footer ul {
+    padding-inline-start: 0px;
+}
+
+.centre {
+    text-align: center;
+    background-color: var(--second-color);
+    padding: 1rem;
+}
+
+
+.right {
+    padding-right: 5rem;
+}
+
+.heading {
+    color: var(--third-color);
+    padding-left: 5rem;
+}
