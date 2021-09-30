@@ -33,11 +33,13 @@ body {
     text-decoration: none;
     padding: 0.5rem 1rem;
     margin: auto;
+    
 
 
 }
 
 .primary-link {
+    text-align: center;
     color: var(--primary-color);
     background-color: var(--third-color);
     border-radius: 0.6rem;
@@ -131,9 +133,10 @@ body {
 }
 
 .centre {
-    text-align: center;
+    display: block;
+    text-align: auto;
     background-color: var(--second-color);
-    padding: 1rem;
+    padding: 1rem 1rem;
 }
 
 
