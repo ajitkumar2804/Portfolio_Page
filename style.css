@@ -77,6 +77,11 @@ body {
     text-decoration: none;
     padding-right: 1rem;
 }
+.nav-list:hover {
+    background-color: var(--third-color);
+    color: white;
+    border-radius: 10px;
+}
 
 .navigation .nav-pills {
     text-align: right;
